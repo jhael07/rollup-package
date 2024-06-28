@@ -2,21 +2,11 @@ import "./index.css";
 
 const App = () => {
   return (
-    <button
-      style={{
-        backgroundColor: "#2a7dea",
-        borderRadius: "3.75rem",
-        borderWidth: "1px",
-        borderStyle: "solid",
-        borderColor: "black",
-        cursor: "pointer",
-        padding: "0.4rem",
-        paddingRight: "1rem",
-        paddingLeft: "1rem",
-      }}
-    >
-      Click here
-    </button>
+    <div className="mt-20">
+      <button className="px-4 p-1.5 rounded-lg bg-blue-500 hover:bg-blue-600 text-white">
+        click here
+      </button>
+    </div>
   );
 };
 
